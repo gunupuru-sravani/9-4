@@ -1,0 +1,43 @@
+public class Shifting   
+{  
+public static void main(String args[])  
+{  
+byte x, y;  
+x=10;  
+y=20;  
+System.out.println("Bitwise Left Shift: x<<1 = "+(x<<1));
+System.out.println("Bitwise right Shift: x>>1 = "+(x>>1));
+System.out.println("Bitwise Left Shift: x<<2 = "+(x<<2));
+System.out.println("Bitwise right Shift: x>>2 = "+(x>>2));
+System.out.println("Bitwise Left Shift: x<<3 = "+(x<<3));
+System.out.println("Bitwise right Shift: x>>3 = "+(x>>3));
+System.out.println("Bitwise Left Shift: x<<4 = "+(x<<4));
+System.out.println("Bitwise right Shift: x>>4 = "+(x>>4));
+System.out.println("Bitwise Left Shift: x<<5 = "+(x<<5));
+System.out.println("Bitwise right Shift: x>>5 = "+(x>>5));
+System.out.println("Bitwise Left Shift: y<<1 = "+(y<<1));
+System.out.println("Bitwise right Shift: y>>1 = "+(y>>1));
+System.out.println("Bitwise Left Shift: y<<2 = "+(y<<2));
+System.out.println("Bitwise Left Shift: y<<3 = "+(y<<3));
+System.out.println("Bitwise right Shift: y>>3 = "+(y>>3));
+System.out.println("Bitwise Left Shift: y<<4 = "+(y<<4));
+
+}  
+} 
+ java -cp /tmp/UyvDJU3Kyp Shifting
+Bitwise Left Shift: x<<1 = 20
+Bitwise right Shift: x>>1 = 5
+Bitwise Left Shift: x<<2 = 40
+Bitwise right Shift: x>>2 = 2
+Bitwise Left Shift: x<<3 = 80
+Bitwise right Shift: x>>3 = 1
+Bitwise Left Shift: x<<4 = 160
+Bitwise right Shift: x>>4 = 0
+Bitwise Left Shift: x<<5 = 320
+Bitwise right Shift: x>>5 = 0
+Bitwise Left Shift: y<<1 = 40
+Bitwise right Shift: y>>1 = 10
+Bitwise Left Shift: y<<2 = 80
+Bitwise Left Shift: y<<3 = 160
+Bitwise right Shift: y>>3 = 2
+Bitwise Left Shift: y<<4 = 320
